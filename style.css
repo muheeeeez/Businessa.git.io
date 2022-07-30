@@ -1,0 +1,141 @@
+html {
+  font-family: sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.logo {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 20px;
+  padding-left: 20%;
+}
+
+.navbar-nav {
+  padding-right: 18%;
+
+  justify-content: space-around;
+}
+/* .navbar-nav a{
+  word-spacing: 30px
+
+} */
+.navbar-brand {
+  color: orange;
+}
+.heading {
+  background-image: url(images/light_bulb.jpg);
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.heading-info {
+  color: white;
+  padding-left: 20.5%;
+  padding-top: 70px;
+}
+.info {
+  font-size: 70px;
+  padding-bottom: 0px;
+}
+.showcase {
+  color: orange;
+  padding: 50px 0;
+}
+.showcase p {
+  color: #aba5a3;
+  font-size: 22px;
+  margin: auto;
+}
+.image-grid {
+  position: relative;
+  color: white;
+  overflow: hidden;
+  box-sizing: border-box;
+  height: 200px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+
+  vertical-align: middle;
+  text-align: center;
+}
+
+.image_grid:hover {
+  transform: scale(1.1);
+}
+.centered {
+  /* position: absolute; */
+  color: black;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  line-height: 200px;
+  display: inline-block;
+}
+#card-title {
+  color: orange;
+}
+.form_control {
+  width: 125%;
+  height: 34px;
+  justify-content: center;
+}
+.button_control {
+  border-radius: 3px;
+  border: solid orange;
+  font-size: smaller;
+  height: 34px;
+  width: 100%;
+  padding: 0;
+  background-color: orange;
+}
+.map_image {
+  background-image: url("/images/map.jpg");
+  height: 350px;
+  background-size: cover;
+  position: relative;
+}
+.grid {
+  background-color: #fbf8f1;
+  padding-left: 400px;
+}
+.grid li {
+  list-style: none;
+  font-size: 14px;
+  text-align: left;
+}
+.grid a {
+  color: #aba5a3;
+  text-decoration: none;
+}
+.grid-1 {
+  padding-right: 0px;
+}
+.grid-2 {
+  padding-left: 0;
+}
+.grid-3 {
+  padding-left: 90px;
+  color: #aba5a3;
+}
+.footer-row {
+  font-size: 15px;
+  text-align: center;
+}
+.footer-row a {
+  color: orange;
+  text-decoration: none;
+}
+.footer-row a:hover {
+  text-decoration: underline;
+}
+
+.footer-p {
+  color: #aba5a3;
+  text-align: center;
+}
