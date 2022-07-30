@@ -6,6 +6,7 @@ html {
 }
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 20px;
 }
 .logo {
   color: white;
