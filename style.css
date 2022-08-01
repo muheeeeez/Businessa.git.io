@@ -6,8 +6,8 @@ html {
 }
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 20px;
-  padding: 30px;
+  margin: 0px;
+ 
 }
 .logo {
   color: white;
@@ -59,26 +59,27 @@ body {
   overflow: hidden;
   box-sizing: border-box;
   height: 200px;
+
   /* display: flex;
   justify-content: center;
-  align-items: center; */
+  align-items: center;  */
 
-  vertical-align: middle;
-  text-align: center;
+  /* vertical-align: middle;
+  text-align: center; */
 }
 
 .image_grid:hover {
   transform: scale(1.1);
 }
 .centered {
-  /* position: absolute; */
+  position: absolute;
   color: black;
-  /* top: 50%;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); */
-  line-height: 200px;
-  display: inline-block;
-}
+  transform: translate(-50%, -50%);
+  /* line-height: 200px;
+  display: inline-block;*/
+} 
 #card-title {
   color: orange;
 }
